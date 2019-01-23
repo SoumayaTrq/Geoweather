@@ -1,0 +1,17 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+
+html,
+body,
+.map-container {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.custom-dialog-container {
+  .mat-dialog-container {
+    padding: 20px 10px;
+  }
+}

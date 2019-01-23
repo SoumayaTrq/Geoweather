@@ -1,0 +1,11 @@
+<form class="location-search" (keydown.enter)="$event.preventDefault()">
+  <mat-form-field class="field-full-width">
+    <input matInput type="text" #location placeholder="Search for location">
+    <button mat-button mat-icon-button type="button" (click)="searchLocation(location.value)">
+      <mat-icon>search</mat-icon>
+    </button>
+  </mat-form-field>
+</form>
+
+<!-- Map view -->
+<div id="map-container" class="map-container"></div>
